@@ -61,6 +61,11 @@ h5 {
   border-radius: 20px;
 }
 
+input {
+  border: none;
+  width: 200px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -195,6 +200,37 @@ h5 {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+}
+
+.email__address--input {
+  margin: 24px 48px 48px 0;
+  border: 2px solid #e3e6ea;
+  padding: 8px 14px 8px 32px;
+  border-radius: 48px;
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+}
+
+.email__address--input:hover {
+  border-color: #c6d2e2;
+  transition: all 500ms ease;
+}
+
+::placeholder {
+  color: #d1d5d9;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.input__button {
+  background-color: #6415ff;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  padding: 16px 40px;
+  border: none;
+  border-radius: 32px;
 }
 
 .column__header--description {
@@ -946,6 +982,11 @@ i.fa-youtube {
 
   h3 {
     font-size: 16px;
+  }
+
+  .email__address--input {
+    margin: 0 auto;
+    margin-bottom: 24px;
   }
 
   /*MOBILE NAVIGATION*/
