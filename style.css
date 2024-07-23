@@ -209,7 +209,7 @@ input {
   border-radius: 48px;
   display: flex;
   justify-content: space-between;
-  width: 450px;
+  width: 100%;
 }
 
 .email__address--input:hover {
@@ -755,7 +755,7 @@ i.arrow {
 .faq__wrapper {
   display: flex;
   flex-direction: column;
-  width: 900px;
+  width: 100%;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
@@ -768,7 +768,7 @@ i.arrow {
   justify-content: space-between;
   align-items: center;
   border-radius: 8px;
-  width: 900px;
+  width: 100%;
   margin-bottom: 16px;
 }
 
