@@ -1134,6 +1134,7 @@ h2.testimonials__title {
   width: 100%;
   text-align: center;
   height: 150px;
+  margin-bottom: 40px;
 }
 
 .get__started__buttons {
@@ -1167,6 +1168,15 @@ button.get__started {
 
 button.contact__us {
   padding: 16px 32px;
+}
+
+.get__started__buttons {
+  width: 100%;
+}
+
+.faq__container {
+padding: 0;
+
 }
 
 /*FOOTER*/
